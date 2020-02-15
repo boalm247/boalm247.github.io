@@ -1,0 +1,70 @@
+@font-face {
+            font-family: "PressStart2P";
+            src: url("fonts/PressStart2-Regular.ttf");
+		}
+
+		@font-face {
+            font-family: "NunitoSans-Regular";
+            src: url("fonts/Nunito_Sans/NunitoSans-Regular.ttf");
+        }
+        
+html{
+    font-size: 62.5%;
+}
+
+#site{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: solid 1px black;
+    width: max-content;
+}
+
+#bluebox{
+    grid-column: 1 ;
+    grid-row: 1;
+    background: #97c7a4;
+}
+
+.img{
+    padding: 5rem;
+    margin: 2rem;
+}
+
+		
+h1{
+	font-family: "PressStart2P";
+    font-size: 2.8rem;
+}
+
+h3{
+    font-family: "PressStart2P";
+    font-size: 1.5rem;
+}
+
+h4{
+	font-family: "PressStart2P";
+    font-size: 1.2rem;
+}
+
+body{
+	font-family: "NunitoSans-Regular";
+	font-size: 1.6rem;
+
+}
+
+.next{
+	position: fixed;
+	top: 0%;
+	right: 0%;
+	margin: 3px;
+    padding: 3px;
+}
+
+.next2{
+	position: fixed;
+	top: 3%;
+	right: 0%;
+	margin: 3px;
+	padding: 3px;
+}
