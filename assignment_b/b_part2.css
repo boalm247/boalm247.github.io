@@ -80,7 +80,7 @@ body{
     z-index: 6;
     justify-content: center;
     align-items: center;
-    /* transform: rotateX(75deg); */
+    /* transform: rotateZ(75deg); */
     animation: orbit 60s linear infinite;
 
 }
